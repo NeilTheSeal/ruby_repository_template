@@ -12,4 +12,5 @@ group :development do
   gem "standard"
   gem "syntax_tree"
   gem "syntax_tree-disable_ternary"
+  gem "webrick"
 end
