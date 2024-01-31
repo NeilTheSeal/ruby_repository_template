@@ -7,9 +7,10 @@ Required VSCode Extensions:
     4. Ruby Sorbet
     5. Standard Ruby
 Instructions:
-    1. `bundle install`
-    2. `srb init`
-    3. Under VSCode settings, set:
+    1. In terminal, run `gem install sorbet`
+    2. In terminal, in the repository directory, run `bundle install`
+    3. In terminal, in the repository directory, run `srb init`
+    4. Under VSCode settings, set:
         - Ruby LSP: Formatter = rubocop
         - Editor: Default Formatter = Standard Ruby
         - Editor: Format on Save = true
