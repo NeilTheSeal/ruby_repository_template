@@ -1,3 +1,5 @@
+# typed: ignore
+
 require "rspec"
 require "./lib/template_class"
 

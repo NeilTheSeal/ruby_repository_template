@@ -15,6 +15,8 @@ Instructions:
 4. Under VSCode settings, set:
     - Ruby LSP: Formatter = rubocop
     - Editor: Default Formatter = Standard Ruby
-    - Editor: Format on Save = true  
+    - Editor: Format on Save = true
+5. Open ./sorbet/config and add `--ignore=sorbet/` to the end of the file
+6. Add `# typed: ignore` to the top of any spec files
 
 When typing in a Ruby file, there will be suggestions for methods, variables, etc. Hover your mouse over the method, object, or class to view concise documentation for it.
