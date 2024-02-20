@@ -4,3 +4,5 @@ ignore:
   - '**/*':
     - Layout
     - Style
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: 'single_quotes'
