@@ -2,10 +2,10 @@ source "https://rubygems.org"
 
 # gem "rails"
 
-gem "tapioca", require: false, group: %i[development test]
-group :development do
+group :development, :test do
   gem "rubocop"
   gem "rubocop-discourse"
   gem "solargraph"
   gem "standard"
+  gem "tapioca", require: false
 end
