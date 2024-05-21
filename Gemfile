@@ -7,5 +7,4 @@ group :development, :test do
   gem "rubocop-discourse"
   gem "solargraph"
   gem "standard"
-  gem "tapioca", require: false
 end
